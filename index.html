@@ -42,6 +42,7 @@
             <ul class="nav-links" id="navLinks">
                 <li><a href="#about">關於我們</a></li>
                 <li><a href="#menu">特色菜單</a></li>
+                <li><a href="#gallery">菜色圖鑑</a></li>
                 <li><a href="#location">交通停車</a></li>
                 <li><a href="tel:0735927777" class="nav-cta">📞 訂位 07-359-2777</a></li>
             </ul>
@@ -207,6 +208,21 @@
                 <p style="text-align:center;color:var(--clr-muted);font-size:0.85rem;margin-top:24px;">
                     ※ 以上合菜套餐以桌計，含稅。如有特殊需求歡迎來電洽詢。
                 </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- ─── Gallery ─── -->
+    <section class="gallery-section" id="gallery">
+        <!-- 網頁空白處的原住民圖騰裝飾 -->
+        <div class="tribal-deco deco-4">✿</div>
+
+        <div class="container">
+            <h2 class="section-title fade-up">菜色圖鑑</h2>
+            <div class="divider"></div>
+            <p class="section-sub fade-up">原汁原味 ‧ 道地呈現</p>
+            <div class="gallery-grid" id="gallery-grid">
+                <!-- Cards will be populated here by JavaScript -->
             </div>
         </div>
     </section>
@@ -426,6 +442,18 @@
         <img src="assets/images/qq-aboriginal.png" alt="" aria-hidden="true" />
     </div>
 
+    <!-- Modal for viewing enlarged images -->
+    <div id="image-modal" class="modal">
+        <span class="close-modal">&times;</span>
+        <div class="modal-content-wrapper">
+            <button id="prev-btn" class="carousel-btn">&lt;</button>
+            <img class="modal-content" id="modal-img">
+            <button id="next-btn" class="carousel-btn">&gt;</button>
+        </div>
+        <div id="caption"></div>
+    </div>
+
+    <script src="scripts.js"></script>
 </body>
 
 </html>
