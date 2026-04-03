@@ -583,6 +583,15 @@ button {
 .menu-img-card img {
     width: 100%;
     height: auto;
+    image-rendering: -webkit-optimize-contrast;
+    image-rendering: crisp-edges;
+}
+
+/* 節慶特別套餐 — 單張圖置中 */
+#menu-festival .menu-img-view {
+    grid-template-columns: 1fr;
+    max-width: 680px;
+    margin: 0 auto;
 }
 
 /* Banquet table */
