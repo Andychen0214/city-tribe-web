@@ -280,7 +280,7 @@ button {
             rgba(14, 10, 5, 0.4) 0%,
             rgba(14, 10, 5, 0.55) 50%,
             rgba(14, 10, 5, 0.85) 100%),
-        url('assets/images/main-bg.jpg');
+        url('assets/images/hero-bg-new.jpg');
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
